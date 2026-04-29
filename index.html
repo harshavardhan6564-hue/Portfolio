@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshavardhan | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshavardhan | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
     <h1>Harshavardhan M</h1>
-    <p>Electronics and Communication Engineer</p>
+    <p>Electronics & Communication Engineer</p>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
 </header>
 
 <nav>
@@ -18,83 +20,138 @@
     <a href="#education">Education</a>
     <a href="#projects">Projects</a>
     <a href="#publications">Publications</a>
+    <a href="#certifications">Certifications</a>
     <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am an Electronics and Communication Engineering graduate from Amrita Vishwa Vidyapeetham with a CGPA of 7.83.
-        I have a strong foundation in digital electronics, signal processing, and information theory.
-        My interest lies in communication systems, error correction coding, and low-power VLSI design.
-    </p>
-</section>
+<section id="about" class="card">
+<h2>About Me</h2>
 
-<section id="education">
-    <h2>Education</h2>
-    <p><strong>B.Tech ECE</strong> – Amrita Vishwa Vidyapeetham (2021–2025)</p>
-    <p>CGPA: 7.83 / 10</p>
-    <p>Class 12: 95%</p>
-    <p>Class 10: 92%</p>
-</section>
+<p>
+I am an Electronics and Communication Engineering graduate with a CGPA of 7.83, 
+with strong interest in Information Communication, signal processing, and low-power digital system design.
+</p>
 
-<section id="projects">
-    <h2>Projects</h2>
+<p>
+My work focuses on improving communication efficiency using error correction techniques 
+such as Viterbi decoding and hardware-based implementations using FPGA.
+</p>
 
-    <h3>Signal Noise Filter using Python</h3>
-    <p>Developed a system to remove noise and extract useful signal components.</p>
-
-    <h3>Vehicle Parking Assistant</h3>
-    <p>Designed a parking assistance system using a 555 timer circuit with audio alerts.</p>
-
-    <h3>4-bit ALU on FPGA</h3>
-    <p>Implemented ALU using VHDL on Basys3 FPGA with arithmetic and logic operations.</p>
+<p>
+I aim to pursue advanced research in communication systems and contribute to efficient 
+and scalable digital communication technologies.
+</p>
 
 </section>
 
-<section id="publications">
-    <h2>Publications</h2>
+<section id="education" class="card">
+<h2>Education</h2>
+<p><b>B.Tech ECE</b> – Amrita Vishwa Vidyapeetham (2021–2025)</p>
+<p>CGPA: 7.83 / 10</p>
+<p>Class 12: 95%</p>
+<p>Class 10: 92%</p>
+</section>
 
-    <h3>An Optimized Viterbi Decoder Architecture Using the Precomputed Table Approach for Branch Metric Unit</h3>
-    <p><strong>Conference:</strong> IEEE CONECCT 2025</p>
+<section id="projects" class="card">
+<h2>Projects</h2>
 
-    <p>
-        This work presents a power-efficient Viterbi decoder architecture for digital communication systems.
-        A precomputed table-based Branch Metric Unit eliminates XOR-based Hamming calculations, reducing power consumption.
-    </p>
+<h3>Signal Noise Filter using Python</h3>
+<p><b>Problem:</b> Noise reduces signal clarity.</p>
+<p><b>Approach:</b> Designed filtering system to extract useful frequency components.</p>
+<p><b>Tech:</b> Python</p>
+<p><b>Result:</b> Improved signal clarity.</p>
 
-    <ul>
-        <li>Designed using Verilog HDL</li>
-        <li>Simulated using Vivado</li>
-        <li>Evaluated using Synopsys Design Compiler</li>
-    </ul>
+<h3>Vehicle Parking Assistant</h3>
+<p><b>Problem:</b> Difficulty detecting obstacles.</p>
+<p><b>Approach:</b> Built system using 555 timer for alerts.</p>
+<p><b>Tech:</b> Analog Electronics</p>
+<p><b>Result:</b> Real-time obstacle detection.</p>
+
+<h3>4-bit ALU on FPGA</h3>
+<p><b>Problem:</b> Efficient hardware computation.</p>
+<p><b>Approach:</b> Implemented ALU using VHDL on FPGA.</p>
+<p><b>Tech:</b> VHDL, Vivado</p>
+<p><b>Result:</b> Arithmetic and logic operations executed successfully.</p>
 
 </section>
 
-<section id="skills">
-    <h2>Skills</h2>
+<section id="publications" class="card">
+<h2>Publications</h2>
 
-    <h3>Programming</h3>
-    <p>Python, MySQL</p>
-
-    <h3>Tools</h3>
-    <p>Vivado, ModelSim, Ansys HFSS</p>
-
-    <h3>Core Areas</h3>
-    <p>Digital Electronics, Information Theory, Communication Systems</p>
+<h3>Optimized Viterbi Decoder Architecture (IEEE CONECCT 2025)</h3>
+<p><b>Problem:</b> High power consumption in traditional decoders.</p>
+<p><b>Approach:</b> Used precomputed BMU to eliminate XOR calculations.</p>
+<p><b>Tools:</b> Verilog, Vivado, Synopsys</p>
+<p><b>Impact:</b> Reduced power consumption and improved efficiency.</p>
 
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: harshavardhan6564@gmail.com</p>
-    <p>Phone: +91 9976428104</p>
+<section id="certifications" class="card">
+<h2>Certifications</h2>
+
+<h3>Introduction to Semiconductor Packaging</h3>
+<p>Arizona State University (Coursera)</p>
+
+<img src="certificate.jpg" alt="Certificate">
+
+<br><br>
+
+<a class="btn" href="https://coursera.org/verify/Y836SVKNN62I" target="_blank">
+View Certificate
+</a>
+
+</section>
+
+<section id="skills" class="card">
+<h2>Skills & Tools</h2>
+
+<h3>Programming</h3>
+<p>Python, MySQL</p>
+
+<h3>Hardware</h3>
+<p>Digital Electronics, FPGA, VLSI Design</p>
+
+<h3>Tools</h3>
+<p>Vivado, ModelSim, Ansys HFSS</p>
+
+<h3>Core Areas</h3>
+<p>Communication Systems, Signal Processing, Information Theory</p>
+
+</section>
+
+<section id="achievements" class="card">
+<h2>Achievements</h2>
+
+<ul>
+<li>Presented research at IEEE CONECCT 2025</li>
+<li>Completed ASU Semiconductor Certification</li>
+<li>Strong academic performance (CGPA 7.83)</li>
+</ul>
+
+</section>
+
+<section id="contact" class="card">
+<h2>Contact</h2>
+
+<p>Email: 
+<a href="mailto:harshavardhan6564@gmail.com">harshavardhan6564@gmail.com</a>
+</p>
+
+<p>
+<a href="https://github.com/harshavardhan6564-hue" target="_blank">GitHub</a>
+</p>
+
+<p>
+<a href="#">LinkedIn (Add your link)</a>
+</p>
+
 </section>
 
 <footer>
-    <p>© 2026 Harshavardhan</p>
+<p>© 2026 Harshavardhan</p>
 </footer>
 
 </body>
-      </html>
+</html>
